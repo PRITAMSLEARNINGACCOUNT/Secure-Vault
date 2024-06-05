@@ -1,6 +1,6 @@
 // import Edit from "./Icons/Edit.gif";
 // import Delete from "./Icons/Delete.gif";
-import "../App.css";
+// import "../App.css";
 import { toast } from "react-toastify";
 import { useContext } from "react";
 import Mode from "../Context/Light_Dark_Mode";
@@ -84,7 +84,6 @@ function Passwords_Table({ setValue }) {
       ) : (
         <div className="rounded-md flex justify-center items-center border-pink-300 md:w-[70%] w-[100%] border bg-green-400  overflow-hidden">
           <div className="overflow-auto md:w-[100%]" id="TableScrollBar">
-           
             <table className="md:table-auto table:fixed md:w-[100%] border text-lg">
               <thead>
                 <tr>
