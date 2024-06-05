@@ -83,8 +83,8 @@ function Passwords_Table({ setValue }) {
         </>
       ) : (
         <div className="rounded-md flex justify-center items-center border-pink-300 md:w-[70%] w-[100%] border bg-green-400  overflow-hidden">
-          <div className="overflow-auto md:w-[100%]" id="TableScrollBar">
-            <table className="md:table-auto table:fixed md:w-[100%] border text-lg">
+          <div className="overflow-auto w-[100%]">
+            <table className="md:table-auto table:fixed w-[100%] border text-lg">
               <thead>
                 <tr>
                   <th className="text-center p-3">Website URL</th>
